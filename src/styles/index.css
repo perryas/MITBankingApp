@@ -1,0 +1,19 @@
+body {
+  background-image: url(../assets/bank-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.home-card .card-body img {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 400px;
+}
+.bank-info {
+  font-size: 1.3rem;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+}
