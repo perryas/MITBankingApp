@@ -38,15 +38,9 @@ export default function Dashboard() {
         </div>
         <div className="card-body px-5">
           <img className="m-auto d-block" src={PiggyBank} alt="a piggy bank" />
-          <p className="m-auto mt-5 bank-info">
-            {loggedInUser ? "You are logged in" : "You are not logged in"} Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Nesciunt corporis
-            quo aspernatur fugit quas repudiandae incidunt deserunt? Cumque,
-            enim doloremque odit rerum, consectetur deleniti molestias omnis
-            atque modi, quisquam voluptatem neque tempore provident. Laboriosam,
-            exercitationem, cumque non fugit earum quas accusantium placeat
-            inventore sit delectus voluptate nesciunt eius, impedit quisquam.
-          </p>
+          <h1 className="m-auto mt-5 bank-info">
+            {loggedInUser ? "You are logged in" : "You are not logged in"}
+          </h1>
         </div>
         <div className="card-footer d-flex justify-content-center">
           {!loggedInUser ? (
